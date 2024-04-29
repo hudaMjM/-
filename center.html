@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="log1.css" />-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>اختر</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none;
+      }
+
+      html {
+        font-size: 62.5%;
+        font-family: sans-serif;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-size: 3rem;
+        background: #f8f7fc;
+        color: #1906c2;
+      }
+
+      .logo {
+        font-size: 4rem;
+        font-weight: 700;
+      }
+
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 75rem;
+        height: 10rem;
+        background: #ffffff;
+      }
+
+      .icon-cart img {
+        width: 6rem;
+        border-radius: 50%;
+      }
+
+      .icon-cart img:hover {
+        transition: 1s;
+        cursor: pointer;
+        background-color: #fff;
+      }
+
+      main {
+        display: block;
+        margin: 5rem 0;
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .title img {
+        border-radius: 50%;
+        width: 5rem;
+      }
+
+      .container {
+        max-width: 124rem;
+        padding: 0 1rem;
+        margin: 0 auto;
+      }
+
+      #tranding {
+        padding: 4rem 0;
+      }
+
+      #tranding .tranding-slider {
+        height: 52rem;
+        padding: 2rem 42rem;
+        position: relative;
+      }
+
+      .tranding-slide {
+        width: 37rem;
+        height: 42rem;
+        position: relative;
+      }
+
+      .tranding-slide .tranding-slide-img img {
+        width: 37rem;
+        height: 42rem;
+        border-radius: 2rem;
+        object-fit: cover;
+      }
+
+      .swiper-s1ide-shadow-left,
+      .Swiper-s1ide-shadow-right {
+        display: none;
+      }
+      @media screen and (max-width:670px)
+{
+  html {
+        font-size: 40.5%;
+        font-family: sans-serif;
+        scroll-behavior: smooth;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30rem;
+      }
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>ذكر المؤمنين</div>
+      <div class="icon-cart">
+        <img src="img/night.jpg!sw800" />
+      </div>
+    </header>
+    <div>
+      <main>
+        <div class="title">
+          <h3>إقرء وتعلم</h3>
+          <img src="img/read.jpg" />
+        </div>
+        <section id="tranding">
+          <div class="container">
+            <div class="Swiper tranding-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <a href="the-second.html"
+                      ><img src="img/morning.jpeg" alt="Tranding"
+                    /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <a href="surah1.html"
+                      ><img src="img/wedding.jpeg" alt="Tranding"
+                    /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide tranding-slide">
+                  <div class="tranding-slide-img">
+                    <a href="the-start.html"
+                      ><img src="img/evening.jpeg" alt="Tranding"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="center.js"></script>
+  </body>
+</html>

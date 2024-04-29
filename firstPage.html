@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+   
+    <!--<link rel="stylesheet" href="./html.css" />-->
+    <title>ذكر المؤمنين</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+nav .logo {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+nav .logo i {
+  color: #6e0aef;
+  padding-left: 0.75rem;
+}
+
+nav .logo h4 {
+  font-family: "Lalezar", cursive;
+}
+
+nav .nav-items {
+  display: flex;
+  list-style-type: none;
+}
+
+nav .nav-items .nav-item {
+  padding: 0 1rem;
+}
+
+nav .nav-link {
+  text-decoration: none;
+  color: #4e547e;
+  font-size: 1.4rem;
+}
+
+nav .nav-link:hover {
+  color: #6e0aef;
+}
+
+/* Heor styling */
+.hero {
+  background-color: #f8f7fc;
+}
+
+.hero-section {
+  max-width: 1366px;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.hero-section .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section .content h4 {
+  color: #200386;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .content p {
+  color: rgb(29, 29, 29);
+  font-size: 1.5rem;
+}
+
+.hero-section form {
+  display: flex;
+}
+.btn {
+  width: 10rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.9rem 2.20rem;
+  background-color: #1520be;
+  
+}
+
+.btn:hover {
+  background-color: #5a4aee;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+/* Features section */
+section.features {
+  padding: 2rem 0;
+  background-color: #f8f7fc;
+}
+
+section.features .features-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features-section h4 {
+  color: #200386;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.features-section .qualities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-section .qualities .quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2rem;
+  max-width: 20rem;
+  border-radius: 2rem;
+  margin: 2rem 2rem;
+}
+
+.features-section .qualities .quality:hover {
+  border: 2px solid #6e0aef;
+}
+
+.qualities .quality i {
+  font-size: 2rem;
+  color: #2022c4;
+  margin-bottom: 1rem;
+}
+
+.qualities .quality h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.qualities .quality p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4e547e;
+}
+
+/*  Phones section */
+.newest-wer {
+  padding-top: 5rem;
+}
+
+.newest-wer .wer-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.wer-section h4 {
+  color: #200386;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.wer-section .wer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: flex-start;
+}
+
+.wer .wert {
+  margin: 2rem 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wert h3 {
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f7fc;
+  height: 15vh;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.footer-section p {
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1300px) {
+  * {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1175px) {
+  * {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    text-align: center;
+  }
+  .hero img {
+    display: none;
+  }
+  .hero-section {
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 50%;
+  }
+  .hero .btn {
+    align-self: center;
+  }
+  .hero .content {
+    margin-top: 2rem;
+  }
+  .features-section .qualities {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.features .features-section {
+    align-items: center;
+  }
+  .phones-section h4 {
+    align-self: center;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero-section .content h1 {
+    font-size: 2rem;
+  }
+  .phones-section {
+    align-items: center;
+  }
+  .phones-section .phones {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 504px) {
+  .phones-section .phones {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  nav .bars-menu {
+    display: block;
+    font-size: 3rem;
+  }
+  nav .nav-items {
+    position: absolute;
+    left: 0;
+    top: 10vh;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #7d22f3;
+    padding: 2rem 0;
+  }
+  nav .nav-items .nav-item {
+    margin: 1rem 0;
+  }
+  nav .nav-items .nav-item a {
+    color: white;
+  }
+  nav .nav-items.active {
+    display: flex;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">
+        <a href="login.html"><i class="ri-user-line login-button" id="login-button"></i></a>
+        <i class="ri-book-open-line"></i>
+        <h4>ذكر المؤمنين</h4>
+       </div>
+      
+      
+      <ul class="nav-items">
+        <li class="nav-item">
+          <a href="#" class="nav-link">الصفحة الرئيسية</a>
+        </li>
+        <li class="nav-item">
+          <a href="#word" class="nav-link">الدعم الفني </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-section">
+        <div class="content">
+          <h4>وَذَكِر فَإِنَ الذِكرَى تَنفَعُ المُؤمِنِين</h4>
+          <h1>
+            عن ابن مسعود - رضي الله عنه - قال: 
+            قال رسول الله - صلى الله عليه وسلم -: 
+            «من قرأ حرفا من كتاب الله فله حسنة، والحسنة بعشر أمثالها، 
+            لا أقول: ألم حرف، ولكن: ألف حرف، ولام حرف، وميم حرف»
+          </h1>
+          <p>
+            إنّ ذكر الله ليس استحضاراً لغائب، إنما هو حضورك أنت من غيبة، وإفاقتك أنت من غفلة.
+          </p>
+          <button class="btn"><a href="login.html"> إعرف أكثر </a></button>
+        </div>
+        <div>
+          <div id="container3D"></div>
+      </div>
+    </section>
+    <!-- Features Section -->
+    <section class="features" id="naw">
+      <div class="features-section">
+        <h4>سبب أختيار فكرة الموقع والهدف منها؟</h4>
+        <div class="qualities">
+          <div class="quality">
+            <i class="ri-lightbulb-line"></i>
+            <h3>السبب:</h3>
+            <p>للتسهيل على المؤمنين الذكر وقراءة القران</p>
+          </div>
+          <div class="quality">
+            <i class="ri-key-fill"></i>
+            <h3>الهدف:</h3>
+            <p>تذكير المؤمنين ونشر العلم الشرعي؛ المستند إلى مصادر الشريعة الإسلامية الثابتة.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- What's New Section -->
+    <section class="newest-wer" id="word">
+      <div class="wer-section">
+        <h4>الدعم الفني </h4>
+        <div class="wer">
+          <div class="wert">
+            <i class="ri-whatsapp-line"></i>
+            <h3>للتواصل على الرقم: 0512345678</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-section">
+        <p>جميع الحقوق محفوظة لموقع ذكر الؤمنين </p>
+      </div>
+    </footer>
+    <script type="module" src="./firstPage.js"></script>
+  </body>
+</html>
+
